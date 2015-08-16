@@ -1,0 +1,11 @@
+humanity.apps('registration',{email:'test',v1:'www'},function(e){
+    console.log(e);
+});
+humanity.apps('test/test',{test:'test'},function(e){
+    console.log(e);
+});
+$(function(){
+    $('[data-form="registration"]').hForm(function(action,data,element){
+        console.log(action);
+    });
+});

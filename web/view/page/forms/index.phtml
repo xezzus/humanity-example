@@ -1,1 +1,9 @@
+<?php self::$js->add(['jquery.min','humanity/humanity','humanity/jquery.hForm','form/registration']); ?>
+<?php self::$css->add(['humanity/hForm']); ?>
 This text for example  <span style="color:red;">forms</span>
+
+<div data-form="registration" data-action="registration">
+    <div><span data-type="text" data-name="email"></span></div>
+    <div><span data-type="text" data-name="password"></span></div>
+    <div><span data-type="button" data-submit>Submit</span></div>
+</div>
