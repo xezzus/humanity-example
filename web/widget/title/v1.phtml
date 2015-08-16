@@ -1,0 +1,21 @@
+<?php
+if(isset(self::$routing->uri[0])){
+    switch(self::$routing->uri[0]){
+        case "pages":
+            echo "Example pages";
+        break;
+        case "forms":
+            echo "Example forms";
+        break;
+        case "views":
+            echo "Example views";
+        break;
+        case "widgets":
+            echo "Example widgets";
+        break;
+        case "apps":
+            echo "Example apps";
+        break;
+    }
+}
+?>

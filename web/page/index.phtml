@@ -1,0 +1,16 @@
+<?php self::$css->add(['main','content']); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Humanity Example - <?php self::$widget->title->v1(); ?></title>
+</head>
+<body>
+    <div class="content">
+            <div class="logo"><img src="/img/logo.png"></div>
+            <div class="menu"><?php self::$widget->menu->v1(); ?></div>
+            <div class="title"><?php self::$widget->title->v1(); ?></div>
+            <div class="page"><?php self::$view->page; ?></div>
+    </div>
+</body>
+
+</html>

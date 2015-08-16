@@ -1,0 +1,54 @@
+body > .content {
+    background:white;
+    width:1000px;
+    margin:0px auto;
+    height:100%;
+    border-left:1px solid #E8E3D3;
+    border-right:1px solid #E8E3D3;
+    position:relative;
+}
+
+/*
+ * LOGO
+ */
+body > .content > .logo {
+    position:absolute;
+    top:33px;
+    left:-276px;
+}
+
+/*
+ * TITLE
+ */
+body > .content > .title {
+    padding:18px 18px;
+    font-size:20px;
+
+}
+
+/*
+ * MENU
+ */
+body > .content > .menu {
+    background:#2C65BC;
+}
+body > .content > .menu a {
+    display:inline-block;
+    padding:9px 18px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+body > .content > .menu a:hover {
+    background:#0042A7;
+}
+
+/*
+ * PAGES
+ */
+body > .content > .page {
+    padding:18px 18px;
+    font-size:14px;
+}
